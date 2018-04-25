@@ -6,11 +6,11 @@ Wk 2 Assignment 4 - UCB
 <a href="https://blonded.github.io/Psychic-Game/" alt="DEMO"> "DEMO" </a>
 
 Installing
-Download repository on GitHub, open in preferred text editor to view source code (i.e. Atom, Sublime, Visual Studio Code). Open index.html, style.css, and psychicgame.js. Right click on the html file code and select "view in default browser" to view a demo of the website created.
+Download repository on GitHub, open in preferred text editor to view source code (i.e. Atom, Sublime, Visual Studio Code). Open index.html, style.css, and psychicgame.js. Right click on the html file code and select "view in default browser" to view a demo of the website created. (Google Chrome Preferred for viewing)
 
 index.html
 style.css
-psychicgame.js
+game.js
 README.md
 
 <img src="" alt="">
