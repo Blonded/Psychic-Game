@@ -1,0 +1,21 @@
+body {
+background-color: black;
+color: white;
+font-family: 'Satisfy', cursive;
+}
+
+.container{
+
+}
+
+.row1{
+    float: right;
+}
+.row2{
+    margin: 30px;
+
+}
+
+.results{
+    text-align: center;
+}
