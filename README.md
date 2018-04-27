@@ -21,7 +21,7 @@ game.js
 README.md
 
 
-<img src="PsychicGame.jpg" alt="Demo-photo">
+<img src="Assets/Images/PsychicGame.jpg" alt="Demo-photo">
 
 Sample of JavaScript used:
 
