@@ -1,11 +1,16 @@
-body {
-background-color: black;
-color: white;
-font-family: 'Satisfy', cursive;
+html, body {
+    background-color: white;
+    color: black;
+
 }
 
 .container{
+    font-family: 'Satisfy', cursive;
+}
 
+.wizard-dancing {
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
 .row1{
@@ -13,9 +18,17 @@ font-family: 'Satisfy', cursive;
 }
 .row2{
     margin: 30px;
+    padding: 100px;
+}
 
+.introduction{
+ 
 }
 
 .results{
     text-align: center;
+}
+
+p{
+
 }

@@ -7,15 +7,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Links CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/style.css" />
     <!-- Link to Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-    <!-- BootStrap Link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Links Javascript -->
-    <script type ="text/javascript"></script>
-    <script src="game.js">
-    </script>
+   
 </head>
 <body>
     <div class= "container">
@@ -26,34 +21,34 @@
             <h1>
             The Psychic Game
             </h1>
+            <div class= "wizard-dancing">
+                <iframe src="https://giphy.com/embed/lzGerSGUsyzhC" width="240" height="240" frameBorder="0" class="" allowFullScreen></iframe>
             </div>
         </div>
+    </div>
         <div class= "row row2">
-            <div class= "col-md-6">
+            <div class= "col-md-12">
             <h2>
         Guess what letter i'm thinking of...
             </h2>
+            <p id="alert"></p>
+            <p id="play-again"></p>
             </div>
-        </div>
-        </div>
-    
-    <div class="Results">
-        Wins: 
-        <br>
-        Losses:
-        <br>
-        Guesses Left:
-        <br>
-        Your guesses so far:
-    </div>
 
-</div> 
+        </div>
+        
+        <div class="Results">
+            <p>Wins: <span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>
+            <p>Guesses Left: <span id="guesses-left"></span></p>
+            <p>Your guesses so far: <span id="guessed-letters"></span></p>
+        </div>
+
+    </div> 
 <!-- ^^ Closes the Container DIV -->
 
-<!-- Javascript Bootstrap links -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
+<script src="Assets/JavaScript/game.js">
+    </script>
 </body>
 </html>
