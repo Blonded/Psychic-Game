@@ -1,4 +1,4 @@
-// dictionary of all global variable that are being tracked in the game
+// dictionary of all global variables that are being tracked in the game
 // initial game values
 var gameData = {
     wins: 0,
