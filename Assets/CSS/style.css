@@ -1,5 +1,4 @@
 html, body {
-    /* background-color: white; */
     background-image: url('http://i65.tinypic.com/2epm4h5.jpg');
     background-repeat: none;
     background-size: cover;
@@ -10,16 +9,18 @@ html, body {
     width: 80%;
     margin: 0 auto;
     margin-top: 5%;
+    border: 0;
+}
+
+.card-body{
+    background: #e4d2ba;
+    border: 0;
 }
 
 .container {
     font-family: 'Satisfy', cursive;
 }
 
-.wizard-dancing {
-    padding-top: 20px;
-    padding-right: 40px;
-}
 
 .row1 {
     float: right;
@@ -72,9 +73,9 @@ html, body {
   }
 
   @keyframes blinkingText{
-    0%{     color: #red;    }
+    0%{     color: #black;    }
     49%{    color: transparent; }
     50%{    color: transparent; }
     99%{    color:transparent;  }
-    100%{   color: #red;    }
+    100%{   color: #black;    }
 }
