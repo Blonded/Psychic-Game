@@ -6,9 +6,12 @@ html, body {
 }
 
 .card {
-    margin-top: 70px;
     opacity: 0.9;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
 }
+
 .container {
     font-family: 'Satisfy', cursive;
 }
