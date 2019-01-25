@@ -27,7 +27,7 @@ Sample of JavaScript used:
 
 This function creates a random number and converts it using the Ascii number chart to then create a letter, A-Z (lowercase only).
 
-'''''
+```
 function generator(){
     // may need to lowercase the computer guess
     // use ascii value of letter
@@ -40,13 +40,14 @@ function generator(){
 console.log(gameData.computerGuess);
 
 
-'''''
+```
 
 ## Built With
 
 * [html]
 * [css]
 * [javascript]
+* [bootstrap]
 
 ## Authors
 
