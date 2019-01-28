@@ -52,13 +52,9 @@ html, body {
 .sign-one {
     animation:blinkingText 0.8s infinite;
     padding-top: 5.5vw;
-    /* padding-right: 4vw; */
     padding-left: 2vw;
-    /* font-family: arial; */
     font-size: 3.2vw;
     letter-spacing: 6px;
-    /* line-height: 4vw; */
-    /* padding-top:; */
     text-shadow: 
     .1vw 0vw .25vw #28D7FE, .2vw 0vw .25vw #28D7FE, .4vw 0vw .25vw #28D7FE, 
     .1vw 0vw .1vw #1041FF, .2vw 0vw 0vw #1041FF, .4vw 0vw 0vw #1041FF,
